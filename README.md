@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 O projeto perfil é  um agregador de links para usar como cartão de visitas online.
-Link <a href="https://steffanylivino.github.io/perfilprojeto/"></a>
+Link <a href="https://steffanylivino.github.io/perfilprojeto/">Link do Projeto</a>
 
 ## :memo: Licença
 
