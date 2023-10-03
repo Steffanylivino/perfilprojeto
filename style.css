@@ -40,10 +40,11 @@ body * {
 }
 
 #container{
-  width:100%;
+  width: 100%;
   margin: 56px auto 0px;
   padding: 0 24px;
-  max-width:588px;
+  max-width: 588px;
+  
   
 
 }
@@ -80,12 +81,15 @@ body * {
   left: 0;
   transform: translateY(-50%);
   top:50%;
+  animation: slide-back 0.2s;
 }
 
 .light #switch button{
-  right: 0;
-  left:initial
+  animation: slide-in 0.4s forwards;
 
+}
+#switch button:hover{
+  outline: 8px solid var(--highlight-color);
 }
 #switch span{
   display: block;
@@ -150,11 +154,24 @@ footer{
   font-size:12px;
 }
 
-@media(min-width:700px){
-  :root{
-    --bg-url:url(./assets/bg-desktop.jpg)
+/* media queries*/
+
+
+
+@keyframes slide-in{
+  from{
+    left:0;
   }
-  .light{
-    --bg-url:url(.assets/bg-mobile-light.jpg)
+  to{
+    left:50%;
+  }
+}
+
+@keyframes slide-back{
+  from{
+    left:50%;
+  }
+  to{
+    left:0%;
   }
 }
