@@ -30,9 +30,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Figma
 
 ## 💻 Projeto
-
+<p>
 O projeto perfil é  um agregador de links para usar como cartão de visitas online.
-Link <a href="https://steffanylivino.github.io/perfilprojeto/">Link do Projeto</a>
+Link <a href="https://steffanylivino.github.io/perfilprojeto/">Link do Projeto</a></p>
 
 ## :memo: Licença
 
